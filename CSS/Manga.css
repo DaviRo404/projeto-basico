@@ -1,0 +1,460 @@
+body{
+    background: url('https://images5.alphacoders.com/764/thumb-1920-764519.jpg') ;
+
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-size: 25px;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+
+}
+
+
+
+
+
+p:first-line{
+    font-weight: bold;
+}
+
+.texto-centro{
+    background-color: deepskyblue;
+    border: 2px solid black;
+    text-align: center;
+    margin: 20px 0;
+
+}
+
+.titulo-padrao{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 43px;
+}
+
+
+.texto-centro:first-letter{
+    font-style: italic;
+}
+
+.texto-centro::before{
+    content: "[ ";
+}
+
+.texto-centro::after{
+    content: " ]";
+}
+
+.cabeçalho{
+    background: url('https://cdnb.artstation.com/p/assets/images/images/034/682/981/large/nakka-srivastav-1.jpg?1612935074&dl=1'), no-repeat;
+    height: 200px;
+    border-radius: 60px;
+    box-shadow: 3px 3px 3px rgba(0,0,0,.5);
+    margin: 6px;
+    box-sizing: border-box;
+    
+    
+
+}
+
+.cabeçalho h3{
+    display: block;
+    position: relative;
+    background: lightslategray;
+    color: black;
+    width: 200px;
+    margin: auto;
+    border-radius: 15px;
+    text-align: center;
+    margin: auto;
+    top: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 5px;
+    
+    
+
+}
+
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+.menu li {
+    background: gray;
+    margin: 50px auto;
+    padding: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 15px;
+
+}
+
+
+
+
+.menu li:hover{
+    transform: scale(1.1);
+}
+
+.menu li a:hover{
+    
+    text-decoration: underline;
+    
+   
+}
+
+
+
+.vendidos, .imgmanga{
+    display: block;
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 50px;
+    margin: 30px auto;
+}
+
+
+
+
+.principal{
+    display: block;
+    position: relative;
+    background: linear-gradient(white, gray, black);
+    width: 710px;
+    right: 150px;
+    padding: 40px;
+    border: 2px solid black;
+    border-radius: 60px;
+    box-sizing: border-box;
+    
+
+}
+
+.animes2{
+    line-height: 1.5em;
+}
+
+.animes2 li{
+    margin: 10px 0;
+}
+
+.item-anime:nth-child(7), .item-anime:nth-child(10), .item-anime:nth-child(9){
+    font-weight: bold;
+}
+
+.item-anime :before{
+    content: "\00A4";
+}
+
+
+
+
+
+.mapa{
+    display: block;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.secundaria{
+    display: block;
+    position: absolute;
+    background: linear-gradient(gray, darkred);
+    width: 500px;
+    float: right;
+    top: 212px;
+    left: 740px;
+    padding: 50px;
+    border: 2px solid black;
+    border-radius: 60px;
+    box-sizing: border-box;
+}
+
+.video{
+    width: 100%;
+}
+
+
+
+
+
+
+.framezin{
+    width: 300px;
+    height: 300px;
+    border: 3px dashed black;
+    border-radius: 15px;
+}
+
+
+.rodapé{
+    display: block;
+    position: relative;
+    background: white;
+    color: black;
+    text-align: center;
+    top: 80px;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+
+}
+
+.logo{
+    width: 200px;
+}
+
+
+.conteudo{
+    background: brown;
+    width: 1200px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px rgba(0,0,0,.5);
+    margin: auto;
+    text-align: center;
+}
+
+.Manga{
+    display: inline-block;
+    background: linear-gradient(10deg, deepskyblue, white);
+    color: black;
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px rgba(0,0,0,.5);
+}
+
+.Manga img{
+    width: 200px;
+}
+
+.Hentai{
+    display: inline-block;
+    background: linear-gradient(10deg, violet, white);
+    color: black;
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px rgba(0,0,0,.5);
+    vertical-align: top;
+}
+
+.Hentai img{
+    width: 200px;
+}
+
+
+
+.logo-manga{
+    width: 300px;
+}
+
+.produtos{
+    display: flex;
+    margin-top: 30px;
+
+   
+}
+
+
+
+.produtos h3{
+    font-weight: bold;
+}
+
+.produtos h3::before{
+    content: "[ ";
+}
+
+.produtos h3::after{
+    content: " ]";
+}
+
+.descriçao{
+    font-size: 10pt;
+    margin-bottom: 20px;
+}
+
+.produtos li{
+    background-color: white;
+    width: 250px;
+    margin: 0 35px;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 15px;
+    transition: 0.5s;
+
+
+}
+
+.produtos li:hover h3{
+    font-size: 20pt;
+    
+}
+
+.produtos li:hover{
+    border-color: brown;
+    background: linear-gradient(10deg,brown, white);
+    transform: scale(1.1);
+}
+
+.produtos li:active{
+    border-color: green;
+    background: linear-gradient(10deg, green, white);
+}
+
+.senai{
+    width: 160px;
+    margin: 4px;
+}
+
+.nekketsu{
+    width: 160px;
+    margin: 4px;
+}
+
+.Isekai{
+    width: 160px;
+    margin: 4px;
+}
+
+.ecchi{
+    width: 160px;
+    margin: 4px;
+}
+
+
+
+form{
+    background: linear-gradient(10deg, #bbbbbb, white);
+    margin: 30px 0;
+    padding: 20px;
+    border-radius: 60px;
+}
+
+main{
+
+    width: 940px;
+    margin: 0 auto;
+    
+}
+
+form p, form label{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+
+}
+
+.input-normal{
+    display: block;
+    margin-bottom: 30px;
+    padding: 10px 25px;
+    width: 50%;
+    font-size: 20px;
+    
+}
+
+.areas{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+#selector{
+    width: 200px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.enviar20{
+    width: 30%;
+    background-color: gold;
+    color: black;
+    font-size: 12pt;
+    font-weight: bold;
+    padding: 10px;
+    margin: 30px 0;
+    border-radius: 40px;
+    transition: 1s;
+    cursor: pointer;
+
+}
+
+.enviar20:hover{
+    background-color: goldenrod;
+    transform: scale(1.1) rotate(720deg);
+}
+
+
+.tabela{
+    background: gray;
+    color: white;
+    width: 40%;
+    border: 2px solid black;
+    margin: 30px auto;
+    font-size: 14pt;
+    font-weight: bold;
+
+    
+}
+
+
+
+.tabela-cabeça td{
+    display: block;
+    position: relative;
+    left: 140px;
+}
+
+.tabela-corpo{
+    background: white;
+}
+
+.tabela-corpo td{
+    text-align: center;
+    border: 2px solid black;
+}
+
+.tabela-corpo td.dia{
+    background: deepskyblue;
+    color: white;
+
+}
+
+.tabela-corpo td.hora{
+    background: black;
+    color: yellow;
+    border-color: gray;
+}
+
+
+
+.tabela-rodape td{
+    display: block;
+    position: relative;
+    left: 140px
+
+}
+
+.Compras1{
+    display: inline-flex;
+    justify-content: stretch;
+
+}
+
+
+
+
+

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manga Home</title>
+
+    <link rel="stylesheet" href="../CSS/reset.css">
+
+    <link rel="stylesheet" href="../CSS/Manga.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="../Imagens/Ncrow-Mega-Pack-1-CDisplay-Manga.ico" type="image/x-icon">
+
+
+
+    <script src="../Javascript/Manga.js"></script>
+</head>
+<body>
+    <header class="cabeçalho">
+        <h3 style="text-indent: 70pt;">Top-Mangá</h3>
+        <ul class="menu" style="text-indent: 40pt;">
+            <li><a href="../Abas/Manga.html">Home</a></li>
+            <li><a href="../Abas/Categorias-manga.html">Categorias</a></li>
+            <li><a href="../Abas/Compras.html">Compras</a></li>
+            <li><a href="../Abas/Fale-Conosco.html">Fale-Conosco</a></li>
+            
+        </ul>
+    </header>
+
+    <main>
+
+        <form>
+            <label for="nome">Nome<input type="text" id="nome" class="input-normal" placeholder="Por favor digite seu nome e sobrenome" required></label>
+
+            <label for="idade">
+                
+                Idade<input type="number" class="input-normal" id="idade" max="50" min="15" placeholder="Digite sua idade tem que ser de 15 a 50" required>
+            
+            </label>
+
+            <fieldset class="areas">
+
+                <legend>Qual seu sexo? </legend>
+            
+                <label for="masc">
+
+                    <input type="radio"
+                    id="masc" name="sexo">Masculino
+                
+                </label>
+
+                <label for="fem" >
+                    
+                    <input type="radio" name="sexo" id="fem">Feminino
+                
+                </label>
+                
+            </fieldset>
+
+            <fieldset class="areas">
+                
+                <legend>Qual melhor horario para entrega?</legend>
+                    
+                <select name="" id="selector">
+                        <option value="">Manhã</option>
+                        <option value="">Tarde</option>
+                        <option value="">Noite</option>
+                </select>
+
+                <legend>Qual redes sociais que podemos nos comunicar? </legend>
+
+                <label for="Face">
+                    <input type="radio" name="opçoesContato" id="envio">
+
+                    Facebook
+
+
+                </label >
+
+                <label for="Insta">
+
+                    <input type="radio" name="opçoesContato" id="Insta">
+
+                    Instagram
+
+                </label>
+
+                <label for="Whats">
+
+                    <input type="radio" name="opçoesContato" id="Whats" checked>
+
+                    Whatsapp
+
+                </label>
+
+            </fieldset>
+
+            
+            <label for="mensagem">
+                Mensagem
+                <textarea name="" id="mensagem" cols="30" rows="10" placeholder="Deixe sua opnião sobre a Pagina" id="msg"></textarea>
+            </label>
+
+            <label for="concordo">
+                <input type="checkbox" name="" id="concordo">Aceita receber recomendações de Animes e Mangas?
+            </label>
+
+            <input type="submit" class="enviar20" value="Enviar" onclick="Formulo()">
+
+
+            <div id="resultado">
+                
+
+
+
+
+
+            </div>
+
+            <table class="tabela">
+
+                <thead class="tabela-cabeça">
+                    <tr>
+                        <td>Horarios</td>
+                    </tr>
+                </thead>
+                <tbody class="tabela-corpo">
+
+                    <tr>
+                        <td class="dia">Segunda-feira</td>
+                        <td class="hora">9h ~ 18h</td>
+                    </tr>
+
+                    <tr>
+                        <td class="dia">Terça-feira</td>
+                        <td class="hora">9h ~ 18h</td>
+                    </tr>
+
+
+                    <tr>
+                        <td class="dia">Quarta-feira</td>
+                        <td class="hora">9h ~ 18h</td>
+                    </tr>
+
+
+                    <tr>
+                        <td class="dia">Quinta-feira</td>
+                        <td class="hora">9h ~ 19:30</td>
+                    </tr>
+                </tbody>
+                <tfoot class="tabela-rodape">
+                    <tr>
+                        <td>&copy;DavesSk8</td>
+                    </tr>
+                </tfoot>
+    
+            </table>
+
+        </form>
+
+        
+
+    </main>
+
+    <footer class="rodapé">
+        <h2><img class="logo" src="../Imagens/logo-manga.png"></h2>
+
+        <h3>Daves// Facebook&copy; // Instagram&copy; </h3>
+    </footer>
+</body>
+</html>
